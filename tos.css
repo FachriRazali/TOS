@@ -1,0 +1,133 @@
+body {
+  margin: unset;
+}
+
+.background {
+  background-color: #3a7bf6;
+  width: auto;
+  height: 210px;
+  display: flex;
+  flex-direction: row;
+}
+
+.tos-title a {
+  font-size: 32px;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.tos-title p {
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  margin-left: 16px;
+  color: #fff;
+}
+
+hr {
+  height: 1px;
+  background-color: #ebebf2;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+}
+
+.cube {
+  width: 8px;
+  height: 25px;
+  background-color: #21b531;
+  margin-left: 3px;
+  margin-top: 16px;
+}
+
+.tos-title {
+  padding: 70px 138px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 40px 20px;
+}
+
+.tos-heading {
+  width: 1120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  border-radius: 12px;
+  border: 1px groove #ebebf2;
+  padding: 20px;
+}
+
+.tos-heading hr {
+  color: #ebebf2;
+}
+
+.tos-heading li {
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  color: #595c60;
+  line-height: 24px;
+  margin-bottom: 16px;
+  word-spacing: 5px;
+}
+
+.tos-heading a {
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  color: #595c60;
+  line-height: 24px;
+  word-spacing: 5px;
+}
+
+.tos-heading ul {
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  color: #595c60;
+}
+
+.tos-heading p {
+  font-size: 20px;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #000;
+}
+
+.tos-table {
+  width: 1000px;
+  border-collapse: collapse;
+  border-radius: 8px;
+}
+
+.tos-table thead tr {
+  background-color: #f2f2f2;
+  text-align: left;
+  font-weight: bold;
+}
+
+.tos-table th {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.tos-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
